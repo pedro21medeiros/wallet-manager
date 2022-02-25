@@ -46,13 +46,12 @@ class Login extends React.Component {
       <div className="login-form">
         { isLogged && <Redirect to="/carteira" /> }
         <form>
-          <h1>TrybeWallet</h1>
+          <h1>Wallet Manager</h1>
           <fieldset>
             <input
               type="email"
               id="email-input"
               name="email"
-              data-testid="email-input"
               placeholder="E-mail"
               onChange={ this.handleUserInput }
             />
@@ -60,7 +59,6 @@ class Login extends React.Component {
               type="password"
               id="password-input"
               name="password"
-              data-testid="password-input"
               placeholder="Senha"
               onChange={ this.handleUserInput }
             />

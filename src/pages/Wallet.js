@@ -26,13 +26,13 @@ class Wallet extends React.Component {
       <>
         <header>
           <section>
-            <div data-testid="email-field">
+            <div>
               {`Email: ${userEmail}`}
             </div>
-            <div data-testid="total-field">
+            <div>
               { `Despesa Total: R$: ${this.totalExpense().toFixed(2)}` }
             </div>
-            <div data-testid="header-currency-field">
+            <div>
               { currencyToExchange }
             </div>
           </section>

@@ -33,14 +33,12 @@ const expenseTable = (props) => {
               <td>
                 <button
                   type="button"
-                  data-testid="edit-btn"
                   onClick={ () => editExpenseValue(curr) }
                 >
                   Editar
                 </button>
                 <button
                   type="button"
-                  data-testid="delete-btn"
                   onClick={ () => removeExpenseValue(id) }
                 >
                   Remove

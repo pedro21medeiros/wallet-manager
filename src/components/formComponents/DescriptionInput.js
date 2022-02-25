@@ -13,7 +13,6 @@ const descriptionInput = (props) => {
         name="description"
         id="description"
         value={ description }
-        data-testid="description-input"
         onChange={ handleExpenseFormInputs }
       />
     </label>
